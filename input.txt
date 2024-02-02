@@ -1,0 +1,68 @@
+ill-typed/extra-tests/multi-parameter/bad-add-1.stella,Unknown error
+ill-typed/extra-tests/multi-parameter/bad-cmp-1.stella,Unknown error
+ill-typed/extra-tests/multi-parameter/bad-cmp-2.stella,Unknown error
+ill-typed/extra-tests/multi-parameter/bad-cmp-3.stella,Unknown error
+ill-typed/extra-tests/multi-parameter/bad-cmp-4.stella,Unknown error
+ill-typed/extra-tests/multi-parameter/bad-cmp-5.stella,Unknown error
+ill-typed/extra-tests/multi-parameter/bad-cmp-6.stella,Unknown error
+ill-typed/extra-tests/multi-parameter/bad-logic-and-1.stella,Unknown error
+ill-typed/extra-tests/multi-parameter/bad-logic-or-1.stella,Unknown error
+ill-typed/extra-tests/multi-parameter/bad-multiply-1.stella,Unknown error
+ill-typed/extra-tests/natural-literals/bad-factorial-1.stella,Unknown error
+ill-typed/extra-tests/natural-literals/bad-factorial-2.stella,Unknown error
+ill-typed/incorrect_arity/my-test-2.stella,Unknown error
+ill-typed/incorrect_arity/my-test.stella,Unknown error
+ill-typed/missing_main/missing-main-1.stella,ERROR_MISSING_MAIN
+ill-typed/missing_main/missing-main-2.stella,ERROR_MISSING_MAIN
+ill-typed/not-a-function/applying-non-function-1.stella,ERROR_NOT_A_FUNCTION
+ill-typed/not-a-function/applying-non-function-2.stella,ERROR_NOT_A_FUNCTION
+ill-typed/not-a-function/applying-non-function-3.stella,ERROR_NOT_A_FUNCTION
+ill-typed/not-a-function/if-funcs.stella,ERROR_NOT_A_FUNCTION
+ill-typed/not-a-function/my-factorial.stella,ERROR_NOT_A_FUNCTION
+ill-typed/not-a-function/not-a-function-1.stella,ERROR_NOT_A_FUNCTION
+ill-typed/not-a-function/shadowed-variable-1.stella,ERROR_NOT_A_FUNCTION
+ill-typed/not-a-function/shadowed-variable-2.stella,ERROR_NOT_A_FUNCTION
+ill-typed/undefined-variable/bad-if-and-undefined-variable-1.stella,ERROR_UNDEFINED_VARIABLE
+ill-typed/undefined-variable/undef-var-1.stella,ERROR_UNDEFINED_VARIABLE
+ill-typed/undefined-variable/undefined-variable-1.stella,ERROR_UNDEFINED_VARIABLE
+ill-typed/undefined-variable/undefined-variable-2.stella,ERROR_UNDEFINED_VARIABLE
+ill-typed/undefined-variable/undefined-variable-3.stella,ERROR_UNDEFINED_VARIABLE
+ill-typed/unexpected-lambda/bad-function-call.stella,ERROR_UNEXPECTED_LAMBDA
+ill-typed/unexpected-lambda/bad-if-4.stella,ERROR_UNEXPECTED_LAMBDA
+ill-typed/unexpected-lambda/bad-squares-1.stella,ERROR_UNEXPECTED_LAMBDA
+ill-typed/unexpected-lambda/bad-succ-2.stella,ERROR_UNEXPECTED_LAMBDA
+ill-typed/unexpected-lambda/if-funcs.stella,ERROR_UNEXPECTED_LAMBDA
+ill-typed/unexpected-lambda/my-ill-typed-2.stella,ERROR_UNEXPECTED_LAMBDA
+ill-typed/unexpected-lambda/unexpected-lambda-1.stella,ERROR_UNEXPECTED_LAMBDA
+ill-typed/unexpected-type-for-expression/added-test-2.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/application-param-type.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/argument-type-mismatch-1.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/bad-abstraction.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/bad-factorial.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/bad-higher-order-1.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/bad-if-1.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/bad-if-2.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/bad-if-3.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/bad-iszero.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/bad-nat-2.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/bad-nat-rec-1.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/bad-nat-rec-2.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/bad-return-type.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/bad-squares-2.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/bad-succ-1.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/bad-succ-3.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/function-mismatch.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/if-funcs.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/my-ill-test-2.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/my-ill-typed-1.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/my-mismatch.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/nat__rec-parameters.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-expression/unexpected-type-for-expression-1.stella,ERROR_UNEXPECTED_TYPE_FOR_EXPRESSION
+ill-typed/unexpected-type-for-parameter/added-test-1.stella,ERROR_UNEXPECTED_TYPE_FOR_PARAMETER
+ill-typed/unexpected-type-for-parameter/argument-type-mismatch-2.stella,ERROR_UNEXPECTED_TYPE_FOR_PARAMETER
+ill-typed/unexpected-type-for-parameter/argument-type-mismatch-3.stella,ERROR_UNEXPECTED_TYPE_FOR_PARAMETER
+ill-typed/unexpected-type-for-parameter/bad-nat-1.stella,ERROR_UNEXPECTED_TYPE_FOR_PARAMETER
+ill-typed/unexpected-type-for-parameter/if-funcs.stella,ERROR_UNEXPECTED_TYPE_FOR_PARAMETER
+ill-typed/unexpected-type-for-parameter/invalid-nat.stella,ERROR_UNEXPECTED_TYPE_FOR_PARAMETER
+ill-typed/unexpected-type-for-parameter/invalid-not_.stella,ERROR_UNEXPECTED_TYPE_FOR_PARAMETER
+ill-typed/unexpected-type-for-parameter/unexpected-type-for-parameter-1.stella,ERROR_UNEXPECTED_TYPE_FOR_PARAMETER
