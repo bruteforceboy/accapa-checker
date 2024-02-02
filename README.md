@@ -1,4 +1,4 @@
-For C++, you may need to modify the `.sh` file and place the checker in the right directory for other templates.
+You may need to modify the `.sh` file and place the checker in the right directory for other templates.
 
 For C++, add the folder "checker" to the directory containing `/build` and `/src`.
 Then run:
