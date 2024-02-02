@@ -18,7 +18,7 @@ run_test() {
     fi
 
     if [[ $input_file == *"$exclude_directory_incorrect_arity_match"* ]]; then
-        echo "Excluded (incorrect-arity-match): $input_file"
+        echo "Excluded (incorrect-arity): $input_file"
         return
     fi
 
@@ -51,6 +51,10 @@ run_test() {
 }
 
 echo "Running tests..."
+
+for input_file in tests/input/*/*/*/*.stella; do
+    run_test $input_file
+done
 
 for input_file in tests/input/*/*/*.stella; do
     run_test $input_file
