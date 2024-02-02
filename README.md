@@ -1,6 +1,6 @@
 For C++, but should be easily extensible for other languages. You may need to modify the `.sh` file and place the checker in the right directory.
 
-For C++, add the folder "checker" to the directory firstname.surname (e.g., `c.ogbonna`).
+For C++, add the folder "checker" to the directory containing `/build` and `/src`.
 Then run:
 
 - `make typecheck` (allow it to build, then interrupt)
