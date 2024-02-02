@@ -6,4 +6,4 @@ Then run:
 - `make typecheck` (allow it to build, then interrupt)
 - `cd checker & bash run_tests.sh` 
 
-The tests run for all excluding `/ill-typed/extra-tests/` and `/ill-typed/incorrect_arity/` because their types are "unknown".
+The tests run for all excluding `/ill-typed/extra-tests/` and `/ill-typed/incorrect_arity/`.
