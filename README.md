@@ -7,3 +7,5 @@ Then run:
 - `cd checker & bash run_tests.sh` 
 
 The tests run for all excluding `/ill-typed/extra-tests/` and `/ill-typed/incorrect_arity/`.
+
+NB: The checker works with stdout, errors from stderr may not be caught. 
