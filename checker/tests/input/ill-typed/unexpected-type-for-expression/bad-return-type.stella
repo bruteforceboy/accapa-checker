@@ -1,5 +1,0 @@
-language core;
-
-fn badReturn(n : Nat) -> (fn(Nat) -> Nat){
-    return succ(n);
-}

@@ -9,10 +9,15 @@ int main() {
         int pos = s.find(',');
         std::string folder = s.substr(0, pos);
         std::string error = s.substr(pos + 1);
+
+        if (error.find(',') != std::string::npos) {
+            // modify to allow alternative error types
+            error = error.substr(0, error.find(','));
+        }
         
         // modify path 
         folder = "tests/output/" + folder;
-        
+
         std::ofstream outputFile(folder);
         
         if (!outputFile.is_open()) {

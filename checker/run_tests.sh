@@ -5,20 +5,14 @@ exec 2>/dev/null
 # path for c++ (change for some other language)
 executable="../build/stella-interpreter"
 
-# excludes extra-tests & incorrect_arity, because the errors are unknown 
-exclude_directory_extra_tests="/ill-typed/extra-tests/"
-exclude_directory_incorrect_arity_match="/ill-typed/incorrect_arity/"
+# excludes extra-tests 
+exclude_directory_extra_tests="/extra-tests/"
 
 run_test() {
     input_file=$1
 
     if [[ $input_file == *"$exclude_directory_extra_tests"* ]]; then
         echo "Excluded (extra-tests): $input_file"
-        return
-    fi
-
-    if [[ $input_file == *"$exclude_directory_incorrect_arity_match"* ]]; then
-        echo "Excluded (incorrect-arity): $input_file"
         return
     fi
 
@@ -52,15 +46,15 @@ run_test() {
 
 echo "Running tests..."
 
+for input_file in tests/input/*/*/*/*/*.stella; do
+    run_test $input_file
+done
+
 for input_file in tests/input/*/*/*/*.stella; do
     run_test $input_file
 done
 
 for input_file in tests/input/*/*/*.stella; do
-    run_test $input_file
-done
-
-for input_file in tests/input/*/*.stella; do
     run_test $input_file
 done
 
