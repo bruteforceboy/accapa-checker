@@ -16,17 +16,10 @@ int main() {
         }
         
         // modify path 
-        folder = "tests/output/" + folder;
+        folder = "~/Desktop/inno/accapa/c.ogbonna/checker/tests/output/" + folder;
 
-        std::ofstream outputFile(folder);
-        
-        if (!outputFile.is_open()) {
-            std::cerr << "Error opening output file: " << folder << std::endl;
-            return 1;
-        }
-        
-        outputFile << error << std::endl;
-        outputFile.close();
+        freopen(folder.c_str(), "w", stdout);
+        std::cout << error << std::endl;
     }
     return 0;
 }

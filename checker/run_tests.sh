@@ -7,12 +7,19 @@ executable="../build/stella-interpreter"
 
 # excludes extra-tests 
 exclude_directory_extra_tests="/extra-tests/"
+# excludes structural patterns
+exclude_structral_pattern_tests="/structural-patterns/"
 
 run_test() {
     input_file=$1
 
     if [[ $input_file == *"$exclude_directory_extra_tests"* ]]; then
         echo "Excluded (extra-tests): $input_file"
+        return
+    fi
+
+    if [[ $input_file == *"$exclude_structral_pattern_tests"* ]]; then
+        echo "Excluded (structural-patterns test): $input_file"
         return
     fi
 

@@ -1,0 +1,6 @@
+language core;
+extend with #lists, #sum-types;
+
+fn main(n : Nat) -> [[Bool + Nat]] {
+    return List::tail([[inl(true)]])
+}
