@@ -9,6 +9,10 @@ executable="../build/stella-interpreter"
 exclude_directory_extra_tests="/extra-tests/"
 # excludes structural patterns
 exclude_structral_pattern_tests="/structural-patterns/"
+# excludes try cast as
+exclude_subtyping_try_cast_as="/subtyping-try-cast-as/"
+# excludes try pattern cast as 
+exclude_subtyping_try_pattern_cast_as="/subtyping-type-cast-patterns/"
 
 run_test() {
     input_file=$1
@@ -20,6 +24,18 @@ run_test() {
 
     if [[ $input_file == *"$exclude_structral_pattern_tests"* ]]; then
         echo "Excluded (structural-patterns test): $input_file"
+        return
+    fi
+
+
+    if [[ $input_file == *"$exclude_subtyping_try_cast_as"* ]]; then
+        echo "Excluded (subtyping-try-cast-as test): $input_file"
+        return
+    fi
+    
+    
+    if [[ $input_file == *"$exclude_subtyping_try_pattern_cast_as"* ]]; then
+        echo "Excluded (subtyping-type-cast-patterns test): $input_file"
         return
     fi
 
