@@ -27,18 +27,16 @@ run_test() {
         return
     fi
 
-
     if [[ $input_file == *"$exclude_subtyping_try_cast_as"* ]]; then
         echo "Excluded (subtyping-try-cast-as test): $input_file"
         return
     fi
     
-    
     if [[ $input_file == *"$exclude_subtyping_try_pattern_cast_as"* ]]; then
         echo "Excluded (subtyping-type-cast-patterns test): $input_file"
         return
     fi
-
+    
     actual_output=$($executable < $input_file)
 
     if [[ $input_file == *"well-typed"* ]] && [[ $actual_output == *"ERROR"* ]]; then

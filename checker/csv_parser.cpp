@@ -14,7 +14,7 @@ int main() {
             // modify to allow alternative error types
             error = error.substr(0, error.find(','));
         }
-        
+
         // modify path 
         folder = "tests/output/" + folder;
 

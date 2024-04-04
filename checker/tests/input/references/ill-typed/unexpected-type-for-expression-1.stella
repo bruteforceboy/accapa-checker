@@ -1,6 +1,6 @@
 language core;
 
-extend with #references, #sequencing;
+extend with #unit-type, #references, #sequencing;
 
 fn inc_ref(ref : &Nat) -> Unit {
   return
@@ -18,3 +18,4 @@ fn inc3(ref : &Nat) -> Nat {
 fn main(n : Nat) -> Nat {
   return inc3(new(n))
 }
+
