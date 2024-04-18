@@ -1,0 +1,12 @@
+language core;
+
+extend with
+  #universal-types;
+
+generic fn const[X](x : X) -> forall Y. fn(Y) -> Y {
+  return generic [Y] fn(y : Y) { return y }
+}
+
+fn main(x : Nat) -> Nat {
+  return const[Nat](x)[Bool](false)
+}

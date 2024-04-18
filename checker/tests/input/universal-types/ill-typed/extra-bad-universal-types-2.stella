@@ -1,0 +1,12 @@
+language core;
+
+extend with
+  #universal-types;
+
+fn f(x : Nat) -> Nat {
+  return x;
+}
+
+fn main(x : Nat) -> Nat {
+  return f[Nat](x)
+}
